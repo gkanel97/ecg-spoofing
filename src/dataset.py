@@ -66,7 +66,7 @@ class EcgSignalProcessor():
 if __name__ == '__main__':
 
     ecg_processor = EcgSignalProcessor(
-    data_path='data/raw/autonomic-aging-cardiovascular/1.0.0', 
+    data_path='data/raw/physionet.org/files/autonomic-aging-cardiovascular/1.0.0', 
     templates_to_extract=100,
     )
         
